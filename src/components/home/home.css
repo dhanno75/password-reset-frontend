@@ -1,0 +1,12 @@
+.home-intro {
+  font-size: 40px;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-intro h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+}

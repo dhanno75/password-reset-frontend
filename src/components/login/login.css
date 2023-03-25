@@ -1,0 +1,62 @@
+.login-wrapper {
+  font-family: "Raleway", sans-serif;
+  min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  flex-direction: column;
+  padding: 15px;
+  gap: 40px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.bttns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.login-btn {
+  width: 70px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(30, 84, 210);
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.bttns .fgpassword {
+  font-size: 14px;
+}
