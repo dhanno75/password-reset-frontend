@@ -12,7 +12,7 @@ const Navigation = () => {
     localStorage.removeItem("isLoggedIn");
     localStorage.removeItem("userLoggedIn");
     toast.warn("Logged out successfully!");
-    navigate("/home");
+    navigate("/");
   };
 
   return (
@@ -20,11 +20,11 @@ const Navigation = () => {
       <div className="nav-wrapper">
         <div className="nav-left">
           {isLoggedIn ? (
-            ""
-          ) : (
             <Link to="/home" className="nav-link">
               Home
             </Link>
+          ) : (
+            ""
           )}
         </div>
         <div className="nav-right navi-right">
